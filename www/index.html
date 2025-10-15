@@ -1,12 +1,45 @@
 <head>
+    <!-- Page Metadata -->
     <title>MacOS.Sucks</title>
+    <meta name="description" content="I yap about how MacOS sucks" />
+    <meta name="theme-color" content="#0066ff" />
+    <!-- Page Resources -->
     <icon src="{pub}/assets/apple.png" />
+    <script src="{pub}/scripts/index.lua" />
+    <style>
+        body { bg-black }
+        h1, h2, h3, p { font-monospace text-green-500 }
+        img { mx-auto my-4 }
+    </style>
 </head>
 <body>
-    <div style="mt-10 mx-auto max-w-md">
-        <h1>MacOS Sucks</h1>
+    <div style="mt-10 mx-auto p-4 border-green-500 max-w-md">
+        <h1 style="text-center">MacOS Sucks</h1>
         <p>We all know MacOS sucks. It just does. But why did I waste one of my three free domains on this? Because I can. Now shut up!</p>
 
         <img src="{pub}/assets/mac.jpg" />
+
+        <div id="faqs" style="flex flex-col border-green-500">
+            <div style="p-4">
+                <h2 style="text-center">FAQs</h2>
+            </div>
+
+            <div class="faq" style="p-4 border-t border-green-500">
+                <h3 class="faq-title" style="text-2xl">Why did you waste a domain on this?</h3>
+                <p class="faq-content">Because I genuinely don't like MacOS. Why? Look below.</p>
+            </div>
+            <div class="faq" style="p-4 border-t border-green-500">
+                <h3 class="faq-title" style="text-2xl">Why do you despise MacOS?</h3>
+                <p class="faq-content">People expect apps to work with MacOS, but to do that, you need a Mac machine? If Apple allowed MacOS in virtual machines, this website would have no purpose.</p>
+            </div>
+            <div class="faq" style="p-4 border-t border-green-500">
+                <h3 class="faq-title" style="text-2xl">Can I have this website+domain?</h3>
+                <p class="faq-content">Possibly… you will have to email me, though. My email is on the normal world-wide web.</p>
+            </div>
+            <div class="faq" style="p-4 border-t border-green-500">
+                <h3 class="faq-title" style="text-2xl">What is your email?</h3>
+                <p class="faq-content">flappyfloorg@gmail.com</p>
+            </div>
+        </div>
     </div>
 </body>

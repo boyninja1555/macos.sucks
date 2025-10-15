@@ -58,6 +58,7 @@ async fn main() -> Result<()> {
                             Some("html") => "text/html",
                             Some("css") => "text/css",
                             Some("js") => "application/javascript",
+                            Some("lua") => "application/lua",
                             Some("json") => "application/json",
                             Some("png") => "image/png",
                             Some("jpg") | Some("jpeg") => "image/jpeg",
