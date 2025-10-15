@@ -2,6 +2,8 @@ debug
 target
 *.lock
 *.pem
+*.crt
+*.key
 
 *.env*
 !*.env.example
