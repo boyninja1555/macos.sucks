@@ -4,6 +4,7 @@ target
 *.pem
 *.crt
 *.key
+*.csr
 
 *.env*
 !*.env.example
